@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.navbar {
+    background: #ffffff;
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    font-family: 'Poppins';
+    color:#5843be;
+}
+
+.nav_icon {
+    display: none;
+}
+
+.nav_icon>i {
+    font-size: 26px;
+    color: #a5aaad;
+}
+
+.navbar__left {
+    margin-right: 30px;
+    text-decoration: none;
+    color:#5843be;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    background:#F6F7F8;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+
+}
+.navbar__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__right>a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar__right>a>i {
+    color: #a5aaad;
+    font-size: 16px;
+     border-radius: 20px;
+     border: 2px solid #ffffff;
+     background:#F6F7F8;
+     padding: 20px;
+     width: 200px;
+     height: 15px;
+}
+
+@media only screen and (max-width: 978px) {
+    .nav_icon {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar__left {
+        display: none;
+    }
+    
+}
